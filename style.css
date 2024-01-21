@@ -1,0 +1,363 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+
+}
+body,html{
+  width:100%;
+  height:100%;
+}
+#main{
+ width: 100%;
+ height:100%;
+  /* background-color:aqua; */
+}
+#nav{
+  height:40%;
+  width:100%;
+  /* background-color: aqua; */
+  background: url(./image/bg-header-desktop.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#part1{
+  width:100%;
+  height:32%;
+  /* background-color: aqua; */
+}
+#part1 h1{
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size:45px;
+}
+#part1 p{
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 17px;
+  color:rgb(121, 119, 116);
+}
+#button-box{
+  /* padding: 5px; */
+  height:20%;
+  width:100%;
+  /* background-color: red; */
+  position: relative;
+  margin-top: 18px;
+}
+#button-box button:nth-child(1){
+  /* display: block; */
+  position: absolute;
+  padding:12px 24px;
+  top:20%;
+  left:36%;
+  border-radius: 30px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  background-color: #5cd3b9;
+  color:#fff;
+  border: none;
+  font-size: 16px;
+  box-shadow: 0.6px 1.1px  #060629;
+}
+#button-box button:nth-child(2)
+{
+  position:absolute;
+  padding: 12px 24px;
+  top:20%;
+  left:49%;
+  border-radius: 30px;
+  color:#fff;
+  background-color: rgba(132,151,253,255);
+  font-family: 'Bai Jamjuree', sans-serif;
+  border: none;
+  font-size: 16px;
+  box-shadow: 0.6px 1.1px  #060629;
+}
+#part2{
+  width:100%;
+  height:26%;
+  margin-top: 15px;
+  /* background-color: #19826b; */
+}
+#part2 h1{
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size:35px;
+  margin-bottom: 15px;
+}
+#part2 p{
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 17px;
+  color:rgb(121, 119, 116);
+}
+#part3{
+  width:100%;
+  height:100%;
+  /* background-color: #060629; */
+  display: flex;
+  
+}
+#part31{
+  width:55%;
+  height:100%;
+  /* background-color: #5cd3b9; */
+  display: flex;
+  align-items: center;
+  left:-2%;
+  position: relative;
+ 
+}
+#part32{
+  width:45%;
+  height:100%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:20px;
+  
+}
+#part32 #part3-note{
+    margin-left: 20px;
+    padding: 20px;
+}
+#part3-note h1{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+
+}
+#part3-note p{
+  font-family: 'Bai Jamjuree', sans-serif;
+  line-height: 28px;
+  color:rgb(121, 119, 116);
+}
+#part4{
+  width:100%;
+  height:100%;
+  /* background-color: #5cd3b9; */
+}
+#part41{
+  height:30%;
+  width:100%;
+  /* background-color: red; */
+  padding: 50px;
+}
+#part41 h1{
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  margin-bottom: 20px;
+  font-size: 38px;
+}
+#part41 p{
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+  color:rgb(121, 119, 116);
+}
+#part42{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#part5{
+  width:100%;
+  height:100%;
+  /* background-color: #5cd3b9; */
+}
+#part51{
+  height:20%;
+  width:100%;
+  /* background-color: red; */
+  padding:30px;
+}
+#part51 h1{
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 40px;
+  margin-bottom:15px;
+}
+#part51 p{
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+  color:rgb(121, 119, 116);
+}
+#part52{
+  height:40%;
+  width:100%;
+  /* background-color: orange; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#part52-box{
+  width:80%;
+  height:100%;
+  /* background-color: orangered; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inside-box{
+  width:30%;
+  height:100%;
+  /* background-color: #5cd3b9; */
+}
+.inside-box img{
+  position: relative;
+  left:40%;
+  top:15%;
+}
+.inside-box h1{
+  text-align: center;
+  padding: 30px;
+  margin-top: 40px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 600;
+}
+.inside-box p{
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color:rgb(121, 119, 116);
+  line-height: 24px;
+}
+#part53{
+  width:100%;
+  height:40%;
+  /* background-color: #5cd3b9; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#part53-box{
+  width:80%;
+  height:100%;
+  /* background-color: orange; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#part6{
+  width: 100%;
+  height:85%;
+  /* background-color: #060629; */
+}
+#part61{
+  height:75%;
+  width:100%;
+  /* background-color: orange; */
+  position: relative;
+}
+#part62{
+  height: 25%;
+  width:100%;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  background-color: rgb(245, 246, 248);
+}
+#part61 h1{
+  text-align: center;
+  padding: 40px;
+  display: block;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size:45px;
+  margin-top: 70px;
+}
+#part61 p{
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color:rgb(121, 119, 116);
+  padding: 10px;
+  font-size: 20px;
+}
+#part61 button{
+  text-align: center;
+  position: absolute;
+  padding: 22px  42px;
+  font-family:  'Bai Jamjuree', sans-serif;
+  top:55%;
+  left:50%;
+  border: none;
+  border-radius: 30px;
+  font-size:17px;
+  font-weight: 600;
+  color:#fff;
+  background-color: rgb(136,150,255);
+  box-shadow: 3px 5px rgb(26, 29, 50);
+}
+#part61 #button1
+{
+  left:33%;
+  background-color:rgb(98,203,188) ;
+  box-shadow: 3px 5px rgb(82, 146, 137) ;
+}
+#part62-1{
+  height:100%;
+  width:25%;
+  /* background-color: #5cd3b9; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#part62-1 img{
+   width:17%;
+   height:39%;
+  /* padding: 40px; */
+  
+}
+#part62-2{
+  height:100%;
+  width:50%;
+  /* background-color: orange; */
+  display: flex;
+}
+#part62-3{
+  height:100%;
+  width:25%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-box{
+  height:100%;
+  width:33%;
+  /* background-color: #5cd3b9; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer-box h3{
+    font-family:  'Bai Jamjuree', sans-serif;
+    color:rgb(160, 156, 153);
+    font-size:17px;
+}
+.footer-box:nth-last-child(1)
+{
+  /* background-color: #060629; */
+  position: relative;
+}
+.footer-box:nth-last-child(1) h3{
+  position:absolute;
+  top:28%;
+}
+#last-box{
+  width:80%;
+  height:80%;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  padding: 35px;
+  justify-content: space-evenly;
+  font-size: 28px;
+}
